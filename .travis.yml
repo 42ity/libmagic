@@ -12,7 +12,7 @@ os:
 compiler:
  - clang
  - gcc
- - g++
+# - g++
 
 before_script:
  - ./autogen.sh
