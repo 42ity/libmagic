@@ -1,6 +1,5 @@
 # Ignore files from autotools
 /Makefile.in
-acinclude.m4
 aclocal.m4
 compile
 config.guess
