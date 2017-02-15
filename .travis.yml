@@ -23,4 +23,4 @@ script:
  - make distclean > /dev/null
  - ./configure --disable-dependency-tracking --enable-minimal
  - make distcheck
- - ( echo '#include <magic.h>' ; echo 'int main(void) { magic_t m = magic_open(0); return (m != NULL); }' ) > /tmp/main.c && gcc -Isrc/ $(find src -name '*.c' -o -name '*.S') /tmp/main.c
+# - ( echo '#include <magic.h>' ; echo 'int main(void) { magic_t m = magic_open(0); return (m != NULL); }' ) > /tmp/main.c && gcc -Isrc/ $(find src -name '*.c' -o -name '*.S') /tmp/main.c
