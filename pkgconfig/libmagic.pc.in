@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: magic
+Description: Library to magically determine file type from contents (part of "file" project)
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lmagic
+Cflags: -I${includedir}
+Requires.private: cxxtools
